@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+   class human{
+   age =20;
+   #name =`Om tiwari`
+   gender = `Male`
+
+   constructor(newAge,newName){
+    this.age=newAge;
+    this.#name=newName;
+   }
+   walk(){
+    console.log(` I am walking`,this.#name);
+    
+   }
+    running(){
+    console.log(` I am runing`);
+
+    
+   }
+   get fetchname(){
+    return this.#name;
+   }
+   set modifyweight(val){
+    this.#name=val;
+   }
+
+   }
+   let obj =new human(21,"omi");
+  console.log(obj.age);
+  obj.walk();
+//   console.log(obj.#name);// cannot be accesed
+console.log(obj.fetchname);//pvt accesed
+
+
+  
+
+    </script>
+    
+</body>
+</html>

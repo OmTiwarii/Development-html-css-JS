@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        display: flex;
+        justify-content: center;
+    }
+    .box{
+        background:linear-gradient(red,yellow) ;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        animation-name: snehapaglu;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        position: absolute;
+       animation-direction: alternate;
+       animation-timing-function:ease-in;
+    
+       
+    
+    }
+    @keyframes snehapaglu{
+        0%{
+            top: 0px;
+            transform: rotate(180deg);
+       
+        }
+        100%{
+         top: 900px;
+         transform: rotate(360deg);
+        }
+    }
+</style>
+<body>
+    <div class="box">
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    .headerdiv {
+      height: 8vh;
+      width: 100%;
+      background-color: black;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      color: salmon;
+      font-size: 40px;
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+    button {
+      color: white;
+      font: bold;
+      background: salmon;
+      font-size: 30px;
+      border-radius: 10px;
+      margin-left: 30px;
+      margin-right: 30px;
+      width: 8rem;
+      height: 3rem;
+    }
+    .icons {
+      width: 30%;
+      display: flex;
+      justify-content: space-around;
+    }
+    a {
+      text-decoration: none;
+      color: white;
+    }
+    body {
+      padding: 20px;
+    }
+    .photodiv {
+      height: 100vh;
+      width: 100%;
+      border: 2px solid black;
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      justify-content: stretch;
+      gap: 10px;
+      position: relative;
+    }
+    .items {
+      border: 2px solid black;
+      overflow: hidden;
+    }
+    .items img:hover {
+      transform: scale(1.5);
+      transition: 2s;
+    }
+
+    #one {
+      background-color: yellow;
+      /* grid-column-start: 1;
+   grid-column-end: 4;
+   grid-row-start: 1;
+   grid-row-end: 3; */
+      grid-row: span 5;
+      position: relative;
+    }
+    #two {
+      background-color: blue;
+      /* grid-row-start: 1;
+    grid-row-end: 4;
+   grid-column-start: 4;
+   
+   grid-column-end: 5; */
+      grid-column: span 4;
+    }
+    #three {
+      background-color: gray;
+      /* grid-row-start: 3;
+    grid-row-end: 5;
+   grid-column-start: 1;
+   grid-column-end: 2; */
+      grid-row: span 5;
+    }
+    #four {
+      background-color: pink;
+      /* grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4; */
+      grid-row: span 5;
+    }
+    #five {
+      background-color: rgb(202, 30, 67);
+      /* grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4; */
+      grid-row: span 5;
+    }
+    #six {
+      background-color: rgb(20, 209, 105);
+      grid-row: span 5;
+    }
+    #seven {
+      background-color: rgb(150, 17, 171);
+      grid-row: span 5;
+    }
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+    .items #text {
+      position: relative;
+      height: 10rem;
+      width: 100%;
+
+      display: flex;
+      top: 0;
+      align-items: center;
+      /* opacity: 0; */
+      /* visibility: hidden; */
+      opacity: 0;
+      z-index: 1;
+      backdrop-filter: blur(30px);
+    }
+    .items:hover #text {
+      opacity: 1;
+      animation-name: ani;
+      animation-duration: 2s;
+      backdrop-filter: blur(10px);
+    }
+    @keyframes ani {
+      0% {
+        transform: translateY(0px);
+      }
+      /* 50% {
+        top: 35%;
+      } */
+      100% {
+        top: 50%;
+      }
+    }
+  </style>
+  <body>
+    <header>
+      <div class="headerdiv">
+        <div class="logo">Coding thinkers</div>
+        <div class="icons">
+          <a href="#"><h1>home</h1></a>
+          <a href="#"><h1>About</h1></a>
+          <a href="#"><h1>Support</h1></a>
+          <a href="#"><h1>contact</h1></a>
+        </div>
+        <button>Login</button>
+      </div>
+    </header>
+
+    <main>
+      <div class="photodiv">
+        <div class="items" id="one">
+          <h1 id="text">WHITE RASGOLA</h1>
+          <img src="download-1.jpg" alt="" />
+        </div>
+        <div class="items" id="two">
+          <h1 id="text">WHITE RASGOLA</h1>
+          <img src="download-1.jpg" alt="" />
+        </div>
+        <div class="items" id="three">
+          <img src="download-1.jpg" alt="" />
+          <h1 id="text">WHITE RASGOLA</h1>
+        </div>
+        <div class="items" id="four">    <h1 id="text">WHITE RASGOLA</h1><img src="download-1.jpg" alt="" /></div>
+        <div class="items" id="five"><img src="download-1.jpg" alt="" /></div>
+        <div class="items" id="six"><img src="download-1.jpg" alt="" /></div>
+        <div class="items" id="seven"><img src="download-1.jpg" alt="" /></div>
+      </div>
+    </main>
+  </body>
+</html>

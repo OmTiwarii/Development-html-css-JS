@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(65, 124, 124, 0.734);
+    
+}
+.box{
+    height: 480px;
+    width: 370px;
+    padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 2px 5px 40px;
+}
+.box h2{
+    font-size: 2rem;
+}
+.box p {
+    font-size: 1.2rem;
+}
+.box img{
+    width: 90%;
+}

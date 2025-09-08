@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        border: 2px solid red;
+        background-color: aqua;
+        padding: 3px;
+        margin: 3px;
+        display: flex;
+        flex-direction: row;
+        width: 400px;
+      justify-content: space-around;
+    }
+    #boxleft{
+        background-color: yellow;
+        border: 2px dotted red;
+        width: 47%;
+    }
+    #boxright{
+        background-color: blue;
+        border: 2px dotted red;
+        width: 47%;
+        display: flex;
+        justify-content: center;
+    }
+    img{
+        height: 50px;
+        width: 50px;
+    }
+    p{
+        border: 2px dotted red;
+    }
+    @media (max-width:640px){
+        .container{
+            flex-direction: column;
+        }
+    }
+</style>
+<body>
+    <div class="container">
+        <div id="boxleft">
+            <p>text1</p>
+            <p>text2</p>
+        </div>
+        <div id="boxright">
+            <img src="css_photo.jpg" alt="loadingg">
+            <p>sun</p>
+        </div>
+    </div>
+</body>
+</html>

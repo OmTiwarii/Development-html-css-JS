@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+  
+    }
+  .container{
+    height: 100vh;
+    width: 80vw;
+    /* border: solid black; */
+    padding: 2rem 1rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  a{
+    text-decoration: none;
+  }
+  .header{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    left: 100px;
+    margin: 0 auto;
+    /* margin-bottom: 2.5rem; */
+   
+  }
+  .header_tittle{
+    margin-bottom: 1.5rem;
+    
+  }
+  .header_desc{
+    max-width: 768px;
+    text-align: center;
+    color: rgb(108, 103, 103);
+  }
+  .cardcontainer{
+    /* height: 100%;
+    width: 100%; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* grid-template-rows: repeat(2,1fr); */
+    margin: 0 auto;
+   
+    gap: 10px;
+
+  }
+  #items{
+    /* height: 100%;
+    width: 100%; */
+    border: 1.5px solid rgb(212, 201, 201);
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+  }
+  .card_img{
+    width: 100%;
+    height: 17rem;
+  
+  }
+ .card_title{
+    width: 80%;
+    margin: 0 auto;
+    text-align: start;
+    color: black;
+ }
+ .card_dis{
+    width: 80%;
+    margin: 0 auto;
+    text-align: start;
+
+ }
+ #topdiv{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+ }
+ #bottomdiv{
+    height: 4rem;
+    width: 100%;
+   /* border: 2px solid black; */
+   margin: 0 auto;
+ }
+ #avtorimg{
+    height: 100%;
+    width: 100%;
+    background: transparent;
+ }
+ #avtar{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+ }
+ #bottomdiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+ }
+ #info{
+  display: flex;
+  flex-direction: column;
+ }
+ #infoimg{
+  display: flex;
+  flex-direction: row;
+ }
+ #text{
+  height: 1.7rem;
+  width: 6rem;
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: .3rem;
+ 
+ 
+ }
+ #text span{
+  color: gray;
+ 
+ }
+ #items :hover.card_img {
+  transform: scale(1.2);
+  transition-duration: 200ms;
+
+ }
+ #bigimg{
+  overflow: hidden;
+ }
+</style>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="header_tittle">Codehelp Blogs</h1>
+            <p class="header_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum odit expedita labore nihil doloribus error quis perspiciatis dolorem! </p>
+        </div>
+
+        <div class="cardcontainer">
+      <!-- card start -->
+            <div id="items">
+               
+                <div id="bigimg"> <a href="#"><img src="istockphoto-1334436084-612x612.jpg" alt="card one img" class="card_img"></a></div>
+
+             <div id="topdiv">
+               <a href="#"> <h3 class="card_title">New gadgets released</h4></a>
+                <p class="card_dis">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+             </div>
+             <div id="bottomdiv">
+                 <div id="infoimg">
+                    <div id="avtar"> <img src="download-4.jpg" alt="loading" id="avtorimg">
+                    </div>
+
+                    <div id="info"><span>sambhav tiwari</span>
+                        <span> june 19,2025</span></div>
+                 </div>
+
+                  <div id="text">
+                   <span>technology</span>
+                  </div>
+               
+
+                </div>
+            </div>
+       <!-- card one ends 
+              -->
+              <div id="items">
+               
+                <div id="bigimg"> <a href="#"><img src="istockphoto-1334436084-612x612.jpg" alt="card one img" class="card_img"></a></div>
+
+             <div id="topdiv">
+               <a href="#"> <h3 class="card_title">New gadgets released</h4></a>
+                <p class="card_dis">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+             </div>
+             <div id="bottomdiv">
+                 <div id="infoimg">
+                    <div id="avtar"> <img src="download-4.jpg" alt="loading" id="avtorimg">
+                    </div>
+
+                    <div id="info"><span>sambhav tiwari</span>
+                        <span> june 19,2025</span></div>
+                 </div>
+
+                  <div id="text">
+                   <span>technology</span>
+                  </div>
+               
+
+                </div>
+            </div>
+            <div id="items">
+               
+              <div id="bigimg"> <a href="#"><img src="istockphoto-1334436084-612x612.jpg" alt="card one img" class="card_img"></a></div>
+
+           <div id="topdiv">
+             <a href="#"> <h3 class="card_title">New gadgets released</h4></a>
+              <p class="card_dis">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+           </div>
+           <div id="bottomdiv">
+               <div id="infoimg">
+                  <div id="avtar"> <img src="download-4.jpg" alt="loading" id="avtorimg">
+                  </div>
+
+                  <div id="info"><span>sambhav tiwari</span>
+                      <span> june 19,2025</span></div>
+               </div>
+
+                <div id="text">
+                 <span>technology</span>
+                </div>
+             
+
+              </div>
+          </div>
+          <div id="items">
+               
+            <div id="bigimg"> <a href="#"><img src="istockphoto-1334436084-612x612.jpg" alt="card one img" class="card_img"></a></div>
+
+         <div id="topdiv">
+           <a href="#"> <h3 class="card_title">New gadgets released</h4></a>
+            <p class="card_dis">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+         </div>
+         <div id="bottomdiv">
+             <div id="infoimg">
+                <div id="avtar"> <img src="download-4.jpg" alt="loading" id="avtorimg">
+                </div>
+
+                <div id="info"><span>sambhav tiwari</span>
+                    <span> june 19,2025</span></div>
+             </div>
+
+              <div id="text">
+               <span>technology</span>
+              </div>
+           
+
+            </div>
+        </div>
+        <div id="items">
+               
+          <div id="bigimg"> <a href="#"><img src="istockphoto-1334436084-612x612.jpg" alt="card one img" class="card_img"></a></div>
+
+       <div id="topdiv">
+         <a href="#"> <h3 class="card_title">New gadgets released</h4></a>
+          <p class="card_dis">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+       </div>
+       <div id="bottomdiv">
+           <div id="infoimg">
+              <div id="avtar"> <img src="download-4.jpg" alt="loading" id="avtorimg">
+              </div>
+
+              <div id="info"><span>sambhav tiwari</span>
+                  <span> june 19,2025</span></div>
+           </div>
+
+            <div id="text">
+             <span>technology</span>
+            </div>
+         
+
+          </div>
+      </div>
+      <div id="items">
+               
+        <div id="bigimg"> <a href="#"><img src="istockphoto-1334436084-612x612.jpg" alt="card one img" class="card_img"></a></div>
+
+     <div id="topdiv">
+       <a href="#"> <h3 class="card_title">New gadgets released</h4></a>
+        <p class="card_dis">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+     </div>
+     <div id="bottomdiv">
+         <div id="infoimg">
+            <div id="avtar"> <img src="download-4.jpg" alt="loading" id="avtorimg">
+            </div>
+
+            <div id="info"><span>sambhav tiwari</span>
+                <span> june 19,2025</span></div>
+         </div>
+
+          <div id="text">
+           <span>technology</span>
+          </div>
+       
+
+        </div>
+    </div>
+    <div id="items">
+               
+      <div id="bigimg"> <a href="#"><img src="istockphoto-1334436084-612x612.jpg" alt="card one img" class="card_img"></a></div>
+
+   <div id="topdiv">
+     <a href="#"> <h3 class="card_title">New gadgets released</h4></a>
+      <p class="card_dis">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+   </div>
+   <div id="bottomdiv">
+       <div id="infoimg">
+          <div id="avtar"> <img src="download-4.jpg" alt="loading" id="avtorimg">
+          </div>
+
+          <div id="info"><span>sambhav tiwari</span>
+              <span> june 19,2025</span></div>
+       </div>
+
+        <div id="text">
+         <span>technology</span>
+        </div>
+     
+
+      </div>
+  </div>
+  <div id="items">
+               
+    <div id="bigimg"> <a href="#"><img src="istockphoto-1334436084-612x612.jpg" alt="card one img" class="card_img"></a></div>
+
+ <div id="topdiv">
+   <a href="#"> <h3 class="card_title">New gadgets released</h4></a>
+    <p class="card_dis">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+ </div>
+ <div id="bottomdiv">
+     <div id="infoimg">
+        <div id="avtar"> <img src="download-4.jpg" alt="loading" id="avtorimg">
+        </div>
+
+        <div id="info"><span>sambhav tiwari</span>
+            <span> june 19,2025</span></div>
+     </div>
+
+      <div id="text">
+       <span>technology</span>
+      </div>
+   
+
+    </div>
+</div>
+         
+      </div>
+    </div>
+    
+</body>
+</html>

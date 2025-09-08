@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .road{
+        width: 100vw;
+        height: 15vw;
+        display: flex;
+        align-items: center;
+
+        
+
+    }
+    @keyframes cars{
+        0%{
+      transform: scaleX(-1);
+      left: 0;
+
+        }
+        49%{
+            left: 1700px;
+            transform: scaleX(-1);
+        }
+        50%{
+            left: 1700px;
+            transform: scaleX(1);
+        }
+        100%{
+            left: 0;
+            transform: scaleX(1);
+
+        }
+      
+
+    }
+    .car{
+        height: 6rem;
+        width: 10rem;
+        /* background-color: transparent; */
+        animation-name: cars;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+      animation-direction: normal;
+      animation-iteration-count: infinite;
+        position: absolute;
+
+
+    }
+img{
+        height: 100%;
+        width: 100%;
+    
+
+    }
+
+
+</style>
+<body>
+    <div class="road">
+        <img src="53dda8ff-f30f-44f4-9c33-f903866aabd2.JPG" alt="">
+        <div class="car">
+            <img src="images.png" alt="error">
+
+        </div>
+    </div>
+    
+</body>
+</html>

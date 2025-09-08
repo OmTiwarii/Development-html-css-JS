@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let src={
+            age:13,
+            name:"om",
+            gender:"male"
+
+        }
+        // let clone ={...src};//spread operator
+        // let clone = Object.assign({},src);//assign operator
+        let clone={};
+
+        for (let key in src){
+            let newKey =key;
+            let newValue = src[key];
+
+            clone[key]=newValue;
+        }
+        src.color="brown";
+        console.log(src);
+        console.log(clone);
+        
+        
+
+
+    </script>
+    
+</body>
+</html>

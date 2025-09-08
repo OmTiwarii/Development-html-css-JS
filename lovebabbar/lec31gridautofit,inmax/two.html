@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .container {
+      width: 100%;
+      height: 100vh;
+      background-color: blanchedalmond;
+      display: grid;
+      gap: 10px;
+
+      grid-template-areas: 
+     " header header  "
+     "leftbox main "
+     "footer footer";
+    
+    }
+    #items {
+      background-color: rgb(106, 106, 63);
+      border: 2px solid black;
+    }
+    #header{
+grid-area: header;
+    }
+    #leftbox{
+        grid-area:leftbox; 
+
+    }
+    #main{
+        grid-area:main;
+    }
+    #footer{
+        grid-area:footer;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div id="items" id="header">one</div>
+      <div id="items" id="leftbox">two</div>
+      <div id="items" id="main">three</div>
+      <div id="items" id="footer">five</div>
+   
+    </div>
+  </body>
+</html>
+    
+</body>
+</html>

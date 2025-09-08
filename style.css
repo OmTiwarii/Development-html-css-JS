@@ -1,0 +1,265 @@
+/* *{
+    color: antiquewhite;
+}
+button{
+    color: blue;
+}
+
+#headingone{
+    color: yellowgreen;
+}
+#headingtwo{
+    color: blue;
+}
+.myclass{
+    color: cadetblue;
+} */
+
+/* .heading{
+    color: red;
+} */
+
+ /* h1 ,h2 ,h3{
+    color: red;
+ }
+ button{
+    color: brown;
+ } */
+
+/* p{
+ text-align: center;
+}
+h1{
+    text-align: center;
+} */
+
+/* #h1{
+    font-weight: 100;
+}
+#h2{
+    font-size:smaller
+}
+#one{
+    font-family:cursive;
+}
+#one 
+{
+    font-size: 16px;
+    line-height: 50px;
+    text-transform: uppercase;
+} */
+ 
+ /* *{
+    font-family: 'Times New Roman';
+ }
+ h1{
+    text-align: center;
+    text-transform: uppercase;
+ }
+ p{
+    text-transform: uppercase;
+
+ } */
+  /* div{ 
+
+/* height: 300px;
+background-color: yellow;
+border : 13px  dotted black; */
+/* border-width: 5px;
+border-style: dotted;
+ border-color: brown; */
+
+ /* div{
+    height: 100px;
+    width: 100px;
+background-color: yellow;
+border : 13px double black;
+border-radius: 15px;
+padding-left: 12px;
+padding-top: 12px;
+margin-top: 30px;
+ } */
+/* #div1{
+    height: 240px;
+    width: 100px;
+    background-color: black;
+    padding: 10px 5px 20px 15px;
+}
+#div2{
+    color: rgb(3, 243, 79);
+    height: 80px;
+    width: 80px;
+    background-color: green;
+    border-radius: 50%;
+    /* padding: left 10px; */
+
+/* #div3{
+    color: black;
+    height: 80px;
+    width: 80px;
+    background-color: yellow;
+    border-radius: 50%;
+    /* padding: left 10px; */
+/* #div4{
+    color: black;
+    height: 80px;
+    width: 80px;
+    background-color: red;
+    border-radius: 50%;
+    /* padding: left 10px; */
+
+/* AMAZON SEARCH SLITE*/
+/* *{
+    padding: 0px;
+    margin: 0px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+div{
+    
+   height : 60px;
+    background-color: black;
+}
+button{
+  
+    background-color: #f08804;
+}
+#logo{
+   
+    font-size: 25px;
+   color: #f08804;
+}
+a{ 
+    margin-right:  200px;
+}
+ */ 
+ /* div{
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    padding: 25px;
+    display : inline;
+ }
+#box2{
+    /* display: none ; */
+    /* visibility: hidden;
+} */ 
+
+/* div{
+    display: inline-block;
+    margin: 30px;
+    padding: 30px;
+}
+#div1{
+    height: 100px;
+    width : 100px;
+    background-color: rgba(255,0,0,0.5);
+    
+}
+#div2{
+    height: 100px;
+    width : 100px;
+    background-color: rgba(0,255,0,0.5);
+} */
+
+/* pratice set 4 */
+
+/* 
+*{
+   margin: 0px;
+   padding: 0px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+div{
+    
+     height : 60px;
+    background-color: black;
+}
+button{
+  
+    background-color: #f08804;
+    columns: white;
+}
+#logo{
+   margin: 2px;
+    font-size: 25px;
+   color: #f08804;
+}
+a{ 
+    text-decoration: none;
+    color: white;
+    margin-right:250px;
+}
+.contentbox{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    color: black;
+    display: inline-block;
+} */
+
+/* #box1{
+    height: 100px;
+    width: 200px;
+    background-color: green;
+    font-size: 10px;
+}
+#box2{
+    height: 50px;
+    width :30%;
+    background-color: violet;
+    margin-left: 30%;
+    font-size: 2em;
+   width: 5rem;
+
+} */
+
+/* 7 june  */
+ /* div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+   display: inline-block;
+
+
+ } */
+
+ body{
+    text-align: center;
+    
+ }
+ div{
+    height: 100px;
+    width: 100px;
+    display:  inline-block;
+    border: 2px solid black;
+
+ }
+ #container{
+    width: 800px;
+    height: 200px;
+    display: flex;
+
+ }
+ #box1{
+    background-color: blue;
+ }
+ #box2{
+    background-color: yellow;
+ }
+ #box3{
+    background-color: aqua;
+ }
+ #box4{
+    background-color: chocolate;
+ }
+ #box5{
+    background-color: rgb(218, 25, 221);
+ }
+ 

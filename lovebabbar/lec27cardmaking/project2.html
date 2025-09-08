@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        height: 100vh;
+        width: 100vw;
+        background-color: aquamarine;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .card{
+        height: 550px;
+        width: 350px;
+        background-color: white;
+        border-radius: 29px;
+        box-shadow: 2px 4px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:25px;
+    }
+    .card img{
+      
+        height: 30%;
+      width: 100%;
+      border-top-left-radius: 25px;
+      border-top-right-radius: 25px;
+    }
+    .card .annual{
+        height: 3.5rem;
+        width: 85%;
+        background-color: skyblue;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
+        
+    }
+   .text{
+ display: flex;
+ align-items: center; 
+ flex-direction: column;
+ gap: 20px;
+width: 70%;
+text-align: center;
+   }
+.money{
+    display: flex;
+    flex-direction: row;
+}
+.money p{
+    text-align: center;
+}
+.money img{
+    width: 30%;
+}
+#button{
+    width: 80%;
+    height: 50px;
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 2px 50px 40px;
+}
+a{
+    text-decoration: none;
+    color: rgb(37, 14, 14);
+    font-weight: bold;
+}
+
+   </style>
+</head>
+<body>
+    <div class="container">
+       <div class="card">
+         <img src="tech.jpg" alt="error">
+
+         <div class="text">
+            <h2>Order summary</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, enim nostrum! Molestiae est dignissimos </p>
+         </div>
+           <div class="annual">
+
+           <div class="money"> 
+            <img src="download-3.jpg"  alt="error">
+            <p> Annual Plan  $99.9/year 
+            </p>
+        </div>
+         
+            <a href="#">Change</a>
+           </div>
+           <button id="button"> Proceed to Payment</button>
+            <a href="#"> Cancel order</a>
+
+       </div>
+    </div>
+    
+</body>
+</html>

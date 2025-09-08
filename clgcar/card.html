@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        height: 100vh;
+        width: 100%;
+        background-color: rgba(13, 30, 125, 0.782);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .card{
+        height: 500px;
+        width: 350px;
+        background: #020024;
+background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 21%, rgba(0, 212, 255, 1) 82%);
+border-radius: 5%;
+
+    }
+    .innercard{
+       height: 100%;
+     padding:30px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+       gap: 15px;
+    }
+    .colourdiv{
+        height: 35%;
+        width: 100%;
+       background-color: rgba(17, 9, 108, 0.694);
+   border-radius: 20px;
+    }
+   #new{
+   position: relative;
+   top: 20px;
+   left: 20px;
+    height: 40px;
+    width: 70px;
+    background-color: rgb(42, 209, 156);
+    border-radius: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   #new span{
+    font-size:20px;
+   }
+h2{
+    color: white;
+}
+#glass{
+    color: rgb(177, 174, 174);
+}
+p{
+    color: rgb(177, 174, 174);
+}
+#res{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+#white{
+    color: white;
+}
+#boxco{
+    border: 1.5px solid white;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 15px;
+    background-color: rgba(245, 245, 220, 0.394);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+}
+#amount{
+    height: 35px;
+    width: 130px;
+    color: azure;
+}
+#amount span{
+    font-size: 25px;
+    color:lightgoldenrodyellow;
+}
+#getnow{
+    color: white;
+    height: 35px;
+    width: 80px;
+    background: #483ffb;
+background: radial-gradient(circle,rgba(72, 63, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+border-radius: 10px;
+font-size: 18px;
+}
+</style>
+<body>
+    <div class="container">
+
+        <div class="card">
+          <div class="innercard">
+            <div class="colourdiv">
+                <div id="new"><span>NEW</span></div>
+            </div>
+          <h2>Pro UI Components</h2>
+          <div>
+            <span id="glass">glass &middot;</span>
+            <span id="glass">gradient &middot;</span>
+            <span id="glass">motion </span>
+          </div>
+
+          <div id="res">
+           <div id="boxco"> <spann id="white">
+            responsive
+        </span></div>
+           <div id="boxco"> <span id="white">
+            Pure CSS
+        </span></div>
+            <div id="boxco"><span id="white">
+                modern
+            </span></div>
+          </div>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto aperiam, ipsa quis, vero iure a magnam quo enim ullam illo illum voluptatibus asperiores dicta hic, ea in. Consequuntur, vero eum!</p>
+
+          <div id="footer">
+           <div id="amount"> <span >₹999</span></div>
+            <button id="getnow">get now</button>
+          </div>
+
+          </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>

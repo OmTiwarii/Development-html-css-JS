@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gridsecondexample</title>
+
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+
+    }
+    body{
+        height: 100%;
+        width: 100%;
+    }
+    .container{
+        height: 100%;
+        width: 100%;
+        background-color: rgb(206, 32, 229);
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(4,1fr);
+        padding: 4rem;
+        justify-items: end;
+        justify-items: center;
+        align-items: ;
+        
+    }
+    .item{
+        height: 100px;
+        width: 100px;
+        background-color: yellowgreen;
+        border: 4px solid black;
+        /* justify-self: end; */
+        /* justify-self: stretch; */
+        /* align-self: end; */
+        /* align-self: center; */
+        /* align-items: stretch; */
+        /* place-self: center; */
+        /* place-self: end; */
+
+     
+
+    }
+</style>
+<body>
+     <div class="container">
+      <div class="item ">item1</div>
+      <div class="item ">item2</div>
+      <div class="item ">item3</div>
+      <div class="item ">item4</div>
+      <div class="item ">item1</div>
+      <div class="item ">item2</div>
+      <div class="item ">item3</div>
+      <div class="item ">item4</div>
+      <div class="item ">item4</div>
+    
+</body>
+</html>
